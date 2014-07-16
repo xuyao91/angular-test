@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="utf-8">
+    <title>Step-2</title>
+    <script src="lib/angular.min.js"></script>
+    <script src="js/controller.js"></script>
+</head>
+<body ng-controller="PhoneNameCtrl">
+  <ul>
+    <li>
+    <p>{{phone.name}}</p>
+    <p>{{phone.snippet}}</p>
+    </li>
+  </ul>
+</body>
+</html>
